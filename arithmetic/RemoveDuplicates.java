@@ -9,8 +9,7 @@ public class RemoveDuplicates {
 	public static int removeDuplicates(int[] nums) {
 		 int len = nums.length;
 		 
-		 if (len <= 2)
-			 return len;
+		 if (len <= 2) return len;
 		 
 		 int slow = 2, fast = 2;
 		 

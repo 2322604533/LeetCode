@@ -68,7 +68,6 @@ public class RestoreIpAddress {
 
     public static void main(String[] args) {
         String str = "101023";
-
         List<String> list = restoreIpAddress(str);
 
         for (String ip : list)
