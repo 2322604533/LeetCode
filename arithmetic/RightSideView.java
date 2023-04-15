@@ -1,4 +1,4 @@
-package Zeus.arithmetic;
+package zeus.arithmetic;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

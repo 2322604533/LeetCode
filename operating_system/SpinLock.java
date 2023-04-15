@@ -1,4 +1,4 @@
-package Zeus.operating_system;
+package zeus.operating_system;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;

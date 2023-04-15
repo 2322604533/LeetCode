@@ -1,4 +1,4 @@
-package Zeus.arithmetic;
+package zeus.arithmetic;
 
 /**
  * 最长公共前缀

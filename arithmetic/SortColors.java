@@ -1,4 +1,4 @@
-package Zeus.arithmetic;
+package zeus.arithmetic;
 
 public class SortColors {
 

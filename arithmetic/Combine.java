@@ -1,6 +1,4 @@
-package Zeus.arithmetic;
-
-import com.sun.jmx.remote.internal.ArrayQueue;
+package zeus.arithmetic;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
