@@ -25,10 +25,6 @@ public class SkipList {
 
     private Node dummyHead = new Node(-1);
 
-    public void Skiplist() {
-        
-    }
-
     // 找到每一层小于target的最大数的结点
     public void find(int target, Node[] preNodes) {
         Node cur = dummyHead;
@@ -79,9 +75,5 @@ public class SkipList {
         for (int i = 0; (i < level && levelNodes[i].next[i] == node); i++)
             levelNodes[i].next[i] = levelNodes[i].next[i].next[i];
         return true;
-    }
-
-    public static void main(String[] args) {
-
     }
 }
