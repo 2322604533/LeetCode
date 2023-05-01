@@ -36,8 +36,4 @@ public class CombinationSum2 {
             path.removeLast();
         }
     }
-
-    public static void main(String[] args) {
-
-    }
 }

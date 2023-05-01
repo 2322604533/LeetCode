@@ -1,12 +1,8 @@
 package zeus.arithmetic;
 
-
-import lombok.Data;
-
 /**
  * Definition for a binary tree node.
  */
-@Data
 public class TreeNode {
 	
 	int val;

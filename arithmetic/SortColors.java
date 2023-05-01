@@ -5,13 +5,7 @@ public class SortColors {
 	public static void sortColors(int[] nums) {
 		int len = nums.length;
 		if (len < 2) return ;
-		
-		// all in [0,zero] = 0;
-		// all in [zero,i] = 1;
-		// all in [two,len-1] = 2;
-		//while (i == two) break;
-		
-		// 初始化各段为null
+
 		// zero = 0,i = zero,two = len;
 		int zero = 0, i = 0, two = len;
 		while (i < two) {

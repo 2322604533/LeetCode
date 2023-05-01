@@ -7,7 +7,7 @@ import java.util.Deque;
 import java.util.List;
 
 public class CombinationSum {
-	
+
 	public static List<List<Integer>> combinationSum(int candidates[], int target) {
 		
 		List<List<Integer>> resList = new ArrayList<>();
@@ -26,10 +26,10 @@ public class CombinationSum {
 		
 		return resList;
 	}
-	
+
 
 	private static void dfs(int[] candidates, int beign, int len, int target, Deque<Integer> pathDeque,
-			List<List<Integer>> resList) {
+							List<List<Integer>> resList) {
 		// TODO Auto-generated method stub
 	
 		for (int i = beign; i < len; i++ ) {
@@ -41,7 +41,7 @@ public class CombinationSum {
 			
 			pathDeque.removeLast();
 		}
-		
+
 		// 由于进入更深层的时候,小于0的部分被剪掉
 		if (target == 0) {
 			resList.add(new ArrayList<>(pathDeque));
