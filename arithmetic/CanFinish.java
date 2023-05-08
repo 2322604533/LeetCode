@@ -22,18 +22,19 @@ public class CanFinish {
 
         if (numCourses <= 0) return false;
 
-        int pLen = prerequisites.length;
-
-        if (pLen == 0) return true;
+        if (prerequisites.length == 0) return true;
 
         int[] inDegree = new int[numCourses];   // 入度数组
 
         HashSet<Integer>[] adj = new HashSet[numCourses];
 
+        // 初始化有向图begin
         for (int i = 0; i < numCourses; i++) {
             adj[i] = new HashSet<>();
         }
 
+        // 初始化有向图end
+        // 有向图中key是前驱结点，value是后继结点
         for (int[] p : prerequisites) {
             inDegree[p[0]]++;
             adj[p[1]].add(p[0]);
