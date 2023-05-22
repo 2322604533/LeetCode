@@ -1,9 +1,6 @@
 package zeus.arithmetic;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class SubsetWithDup {
 
@@ -19,7 +16,6 @@ public class SubsetWithDup {
 
             return res;
         }
-
         Arrays.sort(nums);
 
         used = new boolean[nums.length];
@@ -60,9 +56,3 @@ public class SubsetWithDup {
         }
     }
 }
-
-
-
-
-
-

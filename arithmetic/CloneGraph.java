@@ -4,7 +4,9 @@ package zeus.arithmetic;
 import java.util.ArrayList;
 import java.util.List;
 
-
+/**
+ * 克隆一份地图
+ */
 // L133
 public class CloneGraph {
 
@@ -28,5 +30,9 @@ public class CloneGraph {
 
     public Node CloneGraph() {
         return null;
+    }
+
+    public static void main(String[] args) {
+        CloneGraph obj = new CloneGraph();
     }
 }
