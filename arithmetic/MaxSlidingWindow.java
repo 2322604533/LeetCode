@@ -34,7 +34,6 @@ public class MaxSlidingWindow {
                 res[index++] = maxHeap.peek()[1];
             }
         }
-
         return res;
     }
 }
